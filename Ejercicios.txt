@@ -1,0 +1,58 @@
+-------------------
+COMPLEJO
+-------------------
++Real: Float
++IMG: Float
+-------------------
++GetReal():Float
++GetImg():Float
++SetReal(Num:Float): Void
++SetImg(Num:Float):void
++suma(num:complejo): complejo
++resta(num:complejo): complejo
++Div(num:complejo): complejo
++Mul(num:complejo): complejo
++print(): Void
+
+
+
+------------------
+RECTANGULO
+------------------
++P1:(int,int)
++P2:(int,int)
++P3:(int,int)
++P4:(int,int)
+------------------
++CrecBA(Base:int,Altura:int):Rectangulo
+ ^^^^^^Contructor de rectangulo de Base y altura
++Superficie():int
++Desplazar(Direccion:str,Distancia:INT): Void
+
+
+------------------
+Punto
+------------------
++X:int
++Y:int
+------------------
+ghetter,setter
+
+
+
+
+-----------------
+Linea
+-----------------
++PuntoA: Punto
++PuntoB: Punto
+----------------
++GetA():Punto
++GetB():Punto
++SetA(A:Punto):Void
++SetB(B:Punto):Void
++MAR(Distancia:int):Void
++MAB(Distancia:int):Void
++MDE(Distancia:int):Void
++MIZ(Distancia:int):Void
++Imprimir():void
